@@ -1,0 +1,4 @@
+"scripts": {
+    ...
+    "typeorm": "ts-node -r ts-node/register ./node_modules/typeorm/cli.js -d ormconfig.ts"
+}
