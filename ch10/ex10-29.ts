@@ -1,0 +1,1 @@
+export declare const SetMetadata: <K = string, V = any>(metadata: K, metadataValue: V) => CustomDecorator<R>
