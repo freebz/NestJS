@@ -1,0 +1,9 @@
+...
+@Module({
+    ...
+  providers: [
+        ...
+        { provide: 'EmailService', useClass: EmailService },
+  ],
+})
+export class UsersModule { }

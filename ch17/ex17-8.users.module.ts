@@ -1,0 +1,9 @@
+...
+@Module({
+    ...
+  providers: [
+        ...
+        { provide: 'UserRepository', useClass: UserRepository },
+  ],
+})
+export class UsersModule { }
